@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn</title>
+  <style>
+    body {
+      background-color: #333;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #242424;
+      width: 100%;
+      height: 100px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      padding: 20px;
+    }
+
+    .grid-item {
+      display: flex;
+      align-items: center;
+      background-color: #444;
+      padding: 10px;
+      gap: 15px;
+      color: white;
+      height: 200px;
+      border-radius: 8px;
+    }
+
+    .grid-item img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .text-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .text-content h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .text-content p {
+      margin: 5px 0 0;
+      font-size: 0.95rem;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Explore Editing Choices
+  </header>
+  
+  <div class="grid-container">
+    <div class="grid-item box1">
+      <img src="img/AfterEffectsLogo.png" alt="After Effects Logo">
+      <div class="text-content">
+        <h3>After Effects [PC]</h3>
+        <p>Adobe After Effects is a powerful digital visual effects, motion graphics, and compositing software used in video post-production. It's widely used for creating animated titles, visual effects, and seamlessly blending elements in film, TV, and online video content.</p>
+      </div>
+    </div>
+    <div class="grid-item box2">
+      <img src="img/PremiereProLogo.png" alt="Premiere Pro Logo">
+      <div class="text-content">
+        <h3>Premiere Pro [PC]</h3>
+        <p>Adobe Premiere Pro is a professional video editing software used in film, TV, and online content creation. It offers advanced editing tools, multi-track timelines, and seamless integration with other Adobe apps.</p>
+      </div>
+    </div>
+    <div class="grid-item box3">
+      <img src="img/DaVinciLogo.png" alt="Da Vinci Resolve Logo">
+      <div class="text-content">
+        <h3>Da Vinci Resolve [PC]</h3>
+        <p>DaVinci Resolve combines professional editing, color correction, visual effects, and audio post in one app. It's known for its powerful color grading tools and used in high-end film production.</p>
+      </div>
+    </div>
+    <div class="grid-item box4">
+      <img src="img/CapCutLogo.png" alt="CapCut Logo">
+      <div class="text-content">
+        <h3>CapCut [PC/Mobile]</h3>
+        <p>CapCut is a free, user-friendly video editing app ideal for mobile content creation. It offers quick editing, effects, and music integration for social media videos.</p>
+      </div>
+    </div>
+    <div class="grid-item box5">
+      <img src="img/FunimateLogo.png" alt="Funimate Logo">
+      <div class="text-content">
+        <h3>Funimate [Mobile]</h3>
+        <p>Funimate is a creative video editing app focused on short, fun, and visually engaging content. It features effects, transitions, and animation tools tailored for TikTok-style videos.</p>
+      </div>
+    </div>
+    <div class="grid-item box6">
+      <img src="img/AlightMotionLogo.jpg" alt="Alight Motion Logo">
+      <div class="text-content">
+        <h3>Alight Motion [Mobile]</h3>
+        <p>Alight Motion is a mobile motion graphics and video editing app. It supports keyframe animation, visual effects, and multiple layers for more advanced mobile editing.</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
